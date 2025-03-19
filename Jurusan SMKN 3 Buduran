@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Sekolah SMK Negeri 3 Buduran</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f8fa;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header Styles */
+        header {
+            background: linear-gradient(45deg, #0072ff, #00c6ff);
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 3.5rem;
+            margin: 0;
+            font-weight: 700;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        header p {
+            font-size: 1.4rem;
+            font-weight: 300;
+            margin-top: 10px;
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        header img {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            border: 2px solid white;
+            margin-bottom: 20px;
+        }
+
+        /* Navigation Styles */
+        nav {
+            background-color: #2c3e50;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            display: inline-block;
+            color: white;
+            padding: 18px 25px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 1.1rem;
+            font-weight: 500;
+            transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #1abc9c;
+            color: white;
+            transform: translateY(-3px);
+        }
+
+        nav a.active {
+            background-color: #2980b9;
+            color: white;
+        }
+
+        /* Main Content */
+        .content {
+            padding: 50px 20px;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            font-size: 2.8rem;
+            color: #2980b9;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 12px;
+            margin-bottom: 30px;
+            font-weight: 600;
+            text-transform: uppercase;
+            position: relative;
+        }
+
+        .content p {
+            font-size: 1.2rem;
+            color: #555;
+            line-height: 1.8;
+            margin-bottom: 25px;
+        }
+
+        .content ul {
+            list-style: none;
+            padding-left: 0;
+            font-size: 1.1rem;
+            color: #555;
+        }
+
+        .content ul li {
+            margin-bottom: 18px;
+            padding-left: 25px;
+            position: relative;
+        }
+
+        .content ul li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #2980b9;
+            font-size: 1.5rem;
+        }
+
+        /* Social Media Links */
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .social-links a {
+            font-size: 1.2rem;
+            color: #2980b9;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .social-links a:hover {
+            color: #1abc9c;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+            font-size: 1rem;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Animation */
+        .section-title,
+        .content p,
+        .content ul {
+            animation: fadeInUp 1s ease-out;
+        }
+
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5rem;
+            }
+
+            nav a {
+                padding: 15px 20px;
+                font-size: 1rem;
+            }
+
+            .content {
+                padding: 20px 10px;
+            }
+
+            .section-title {
+                font-size: 2rem;
+            }
+
+            .content ul li {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <img src="logo pal.png" alt="Logo SMK Negeri 3 Buduran"> <!-- Logo of the school -->
+        <div>
+            <h1>Selamat Datang di Website Sekolah SMK Negeri 3 Buduran</h1>
+            <p>Cekatan, Aktif, Realistis, Adaptif, Konstruktif, Antisipatif</p>
+        </div>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <a href="beranda smkn 3 buduran pt 2.html" class="active">Home</a>
+        <a href="jurusan smkn 3 buduran pt 2.html">Jurusan</a>
+        <a href="profil pt 2.html">Profil</a>
+        <a href="struktur kelas.html">Struktur Kelas XI TKJ 1</a>
+        <a href="kritik dan saran pt 2.html">Kritik dan Saran</a>
+        <a href="kontak pt 2.html">Kontak</a>
+    </nav>
+
+    <!DOCTYPE html>
+    <html lang="id">
+    <head>
+        <title>Program Pendidikan SMKN 3 Buduran</title>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            /* Reset some default styles */
+            body, h1, h2, p, ul, li {
+                margin: 0;
+                padding: 0;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+    
+            body {
+                background: linear-gradient(135deg, #4a90e2, #9013fe);
+                color: #fff;
+                line-height: 1.6;
+                font-size: 16px;
+                padding: 0px;
+            }
+    
+            .container {
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 30px;
+            }
+    
+            section {
+                background-color: rgba(0, 0, 0, 0.7);
+                margin-bottom: 30px;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+            }
+    
+            section:hover {
+                transform: scale(1.05);
+                box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+            }
+    
+            h2 {
+                font-size: 28px;
+                margin-bottom: 15px;
+                color: #fff;
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+                text-transform: uppercase;
+            }
+    
+            p {
+                font-size: 16px;
+                margin-bottom: 15px;
+            }
+    
+            .program-list {
+                list-style-type: none;
+                padding-left: 0;
+            }
+    
+            .program-list li {
+                padding: 8px 0;
+                font-size: 16px;
+                border-bottom: 1px solid #eee;
+                transition: background-color 0.3s ease;
+            }
+    
+            .program-list li:hover {
+                background-color: rgba(255, 255, 255, 0.2);
+            }
+    
+            footer {
+                text-align: center;
+                padding: 20px 0;
+                background-color: rgba(0, 0, 0, 0.8);
+                margin-top: 30px;
+                border-radius: 10px;
+                box-shadow: 0 -6px 12px rgba(0, 0, 0, 0.1);
+            }
+    
+            footer p {
+                font-size: 14px;
+                color: #ddd;
+            }
+    
+            @media screen and (max-width: 768px) {
+                .container {
+                    padding: 15px;
+                }
+    
+                section {
+                    padding: 15px;
+                }
+    
+                h2 {
+                    font-size: 24px;
+                }
+    
+                p {
+                    font-size: 14px;
+                }
+    
+                .program-list li {
+                    font-size: 14px;
+                }
+            }
+    
+        </style>
+    </head>
+    <body>
+    
+    <div class="container">
+        <section id="program1">
+            <h2>Teknik Komputer dan Jaringan</h2>
+            <p>Program ini bertujuan untuk membekali siswa dengan keterampilan dalam merancang, mengelola, dan memelihara jaringan komputer, serta mengatasi berbagai masalah yang terkait dengan teknologi informasi dan komunikasi.</p>
+            <ul class="program-list">
+                <li>Instalasi dan Konfigurasi Jaringan Komputer</li>
+                <li>Keamanan Jaringan</li>
+                <li>Pemrograman Jaringan</li>
+                <li>Perawatan dan Pemeliharaan Perangkat Komputer</li>
+            </ul>
+        </section>
+    
+        <section id="program2">
+            <h2>Teknik Kelistrikan Kapal</h2>
+            <p>Program Pendidikan Teknik Kelistrikan Kapal di SMKN 3 Buduran bertujuan untuk mempersiapkan siswa dengan keterampilan dalam merancang, menginstalasi, dan memelihara sistem kelistrikan pada kapal laut, baik untuk kapal penumpang maupun kapal niaga.</p>
+            <ul class="program-list">
+                <li>Dasar-Dasar Kelistrikan dan Elektronika</li>
+                <li>Instalasi Sistem Kelistrikan pada Kapal</li>
+                <li>Pengenalan Sistem Propulsi Kapal</li>
+                <li>Perawatan dan Pemeliharaan Peralatan Listrik Kapal</li>
+                <li>Pengoperasian dan Perbaikan Alat Navigasi Kapal</li>
+            </ul>
+        </section>
+    
+        <section id="program3">
+            <h2>Desain Rancang Bangun Kapal</h2>
+            <p>Program Pendidikan Desain Rancang Bangun Kapal di SMKN 3 Buduran dirancang untuk membekali siswa dengan keterampilan dalam merancang, mendesain, dan membangun kapal laut, baik untuk kapal niaga, penumpang, maupun kapal khusus lainnya.</p>
+            <ul class="program-list">
+                <li>Dasar-Dasar Teknik Desain Kapal</li>
+                <li>Penggunaan Perangkat Lunak Desain Kapal (CAD, CAM)</li>
+                <li>Studi Kelayakan dan Analisis Struktural Kapal</li>
+                <li>Proses Pembuatan dan Perakitan Kapal</li>
+                <li>Manajemen Proyek Konstruksi Kapal</li>
+            </ul>
+        </section>
+        <section id="program4">
+            <h2>Interior Kapal</h2>
+            <p>Program Pendidikan Interior Kapal di SMKN 3 Buduran bertujuan untuk membekali siswa dengan keterampilan dalam mendesain dan menghias interior kapal yang nyaman, aman, dan estetis, baik untuk kapal penumpang maupun kapal niaga.</p>
+            <ul class="program-list">
+                <li>Dasar-Dasar Desain Interior Kapal</li>
+                <li>Material dan Teknologi yang Digunakan dalam Interior Kapal</li>
+                <li>Penataan Ruang dalam Kapal</li>
+                <li>Peraturan dan Standar Keselamatan Kapal</li>
+                <li>Penerapan Desain Interior untuk Kenyamanan Penumpang</li>
+            </ul>
+        </section>
+    
+        <section id="program5">
+            <h2>Teknik Instalasi Pemesinan Kapal</h2>
+            <p>Program ini membekali siswa dengan keterampilan Profesional di Bidang Instalasi dan Pemeliharaan Mesin Kapal.</p>
+            <ul class="program-list">
+                <li>Dasar-Dasar Teknik Mesin Kapal</li>
+                <li>Pemasangan Mesin Utama dan Mesin Pendukung Kapal</li>
+                <li>Perawatan dan Pemeliharaan Mesin Kapal</li>
+                <li>Instalasi Sistem Kelistrikan pada Mesin Kapal</li>
+                <li>Perbaikan Mesin dan Diagnostik Kerusakan pada Kapal</li>
+            </ul>
+        </section>
+    
+        <section id="program6">
+            <h2>Teknik Kendaraan Ringan Otomotif</h2>
+            <p>Program Pendidikan Teknik Kendaraan Ringan Otomotif di SMKN 3 Buduran bertujuan untuk memberikan keterampilan kepada siswa dalam hal perawatan, perbaikan, dan modifikasi kendaraan ringan seperti mobil dan sepeda motor. Program ini mencakup berbagai aspek teknik otomotif, dari mesin hingga sistem kelistrikan kendaraan.</p>
+            <ul class="program-list">
+                <li>Dasar-Dasar Teknik Kendaraan Ringan</li>
+                <li>Perawatan Mesin dan Sistem Pembakaran Kendaraan</li>
+                <li>Diagnostik dan Perbaikan Sistem Kelistrikan Kendaraan</li>
+                <li>Modifikasi dan Perawatan Suspensi dan Sistem Transmisi</li>
+                <li>Teknik Pengecekan dan Penggantian Komponen Mesin dan Suku Cadang</li>
+        </section>
+    
+        <section id="program7">
+            <h2>Teknik Pemesinan</h2>
+            <p>Program Pendidikan Teknik Pemesinan di SMKN 3 Buduran bertujuan untuk memberikan keterampilan dan pengetahuan dalam pengoperasian mesin-mesin pemesinan, baik mesin konvensional maupun mesin CNC, yang digunakan dalam dunia industri manufaktur.</p>
+            <ul class="program-list">
+                <li>Dasar-Dasar Teknik Pemesinan</li>
+                <li>Pengenalan dan Pengoperasian Mesin Konvensional</li>
+                <li>Pengoperasian Mesin CNC (Computer Numerical Control)</li>
+                <li>Pemrograman CNC</li>
+                <li>Perawatan dan Pemeliharaan Mesin Pemesinan</li>
+                <li>Pengukuran dan Pengendalian Kualitas Produk Pemesinan</li>
+            </ul>
+        </section>
+    
+        <section id="program8">
+            <h2>Teknik Pendingin dan Tata Udara</h2>
+            <p>Program Pendidikan Teknik Pendingin dan Tata Udara di SMKN 3 Buduran bertujuan untuk membekali siswa dengan keterampilan dalam instalasi, perawatan, dan perbaikan sistem pendingin dan tata udara, termasuk sistem pendingin ruangan, AC (Air Conditioner), dan sistem ventilasi industri.</p>
+            <ul class="program-list">
+                <li>Dasar-Dasar Sistem Pendingin dan Tata Udara</li>
+                <li>Instalasi dan Perawatan Sistem Pendingin Ruangan (AC)</li>
+                <li>Instalasi dan Perawatan Sistem Ventilasi Industri</li>
+                <li>Prinsip Kerja dan Pemeliharaan Sistem Refrigerasi</li>
+                <li>Diagnostik dan Perbaikan Kerusakan pada Sistem Pendingin dan AC</li>
+                <li>Penggunaan Alat Ukur dalam Sistem Pendingin dan Tata Udara</li>
+            </ul>
+        </section>
+    
+        <section id="program9">
+            <h2>Teknik Kontruksi Kapal Baja</h2>
+            <p>Program Pendidikan Teknik Konstruksi Kapal Baja di SMKN 3 Buduran bertujuan untuk memberikan pengetahuan dan keterampilan dalam konstruksi kapal baja, mulai dari perencanaan, pemotongan, perakitan, hingga pengelasan dan pengecatan kapal baja. Program ini mempersiapkan siswa untuk bekerja di industri perkapalan dan konstruksi kapal.</p>
+            <ul class="program-list">
+                <li>Dasar-Dasar Konstruksi Kapal Baja</li>
+                <li>Pengelasan dan Penyambungan Baja</li>
+                <li>Proses Pemotongan dan Pembentukan Baja</li>
+                <li>Perakitan Struktur Kapal Baja</li>
+                <li>Pengujian Kekuatan dan Ketahanan Struktur Kapal Baja</li>
+                <li>Pengelasan untuk Sistem Pipa dan Konstruksi Kapal</li>
+            </ul>
+        </section>
+    
+        <section id="program10">
+            <h2>Teknik Pengelasan Kapal</h2>
+            <p>Program Pendidikan Teknik Pengelasan Kapal di SMKN 3 Buduran bertujuan untuk memberikan pengetahuan dan keterampilan dalam teknik pengelasan khususnya dalam konstruksi kapal. Siswa akan mempelajari berbagai metode pengelasan yang digunakan dalam pembuatan dan perbaikan kapal baja, serta memahami standar keselamatan dan prosedur kerja yang berlaku di industri perkapalan.</p>
+            <ul class="program-list">
+                <li>Dasar-Dasar Pengelasan Baja untuk Kapal</li>
+                <li>Teknik Pengelasan Stick (SMAW)</li>
+                <li>Pengelasan dengan Gas (GMAW, FCAW)</li>
+                <li>Pengelasan Baja Tahan Karat dan Aluminium</li>
+                <li>Penerapan Pengelasan pada Struktur Kapal</li>
+                <li>Pengecekan Kualitas Pengelasan dan Pengujian Non-Destruktif (NDT)</li>
+            </ul>
+        </section>
+        <!-- Add more sections as needed -->
+    
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 SMKN 3 Buduran</p>
+    </footer>
+    
+    </body>
+    </html>
+    
